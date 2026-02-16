@@ -10,16 +10,20 @@
   --bright: #42d1ff;                /* links, buttons */
   --bright-45: #42d1ff45;           
   --light: #5191a6;                 /* secondary text, mobile navbar divider */
-  --indigo: #6b5fbf;                /* accent color */
-  --indigo-45: #6b5fbf45;           
-  --red: #eb4034;                   /* active links & buttons */
-  --red-45: #eb403445;              
+  --indigo: #8a7ddc;                /* accent color */
+  --indigo-45: #8a7ddc45;           
+  --red: #ff5145;                   /* active links & buttons */
+  --red-45: #ff514545;              
+  --orange: #ff8d41;                
+  --gold: #ffbd15;
   --sage: #7bbf6a;                  /* accent color */
   --sage-45: #7bbf6a45;             
   --dark-gray: #6c8a94;             /* captions */
   --gray: #9eb8c0;                  /* scrollbar thumb (if supported) */
   --white: #ffffff;                 /* text, button hover */
   --white-22: #ffffff22;            /* mobile navbar toggle */
+
+  font-optical-sizing: auto;
 }
 
 html,
@@ -158,6 +162,42 @@ a:hover .link-chevron {
 .caption {
   font-size: 0.8em;
   color: var(--dark-gray);
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bright {
+  color: var(--bright);
+}
+
+.red {
+  color: var(--red);
+}
+
+.orange {
+  color: var(--orange);
+}
+
+.gold {
+  color: var(--gold);
+}
+
+.sage {
+  color: var(--sage);
+}
+
+.indigo {
+  color: var(--indigo);
+}
+
+.gray {
+  color: var(--gray);
 }
 
 .centered {
@@ -349,7 +389,7 @@ textarea::placeholder {
 }
 
 .hero-subtitle {
-  font-size: clamp(1em, calc(1.8vh + 1.8vw), 4em);
+  font-size: clamp(1em, calc(1.5vh + 1.5vw), 3em);
   font-weight: 450;
   color: var(--bright);
   text-shadow: 0 0 3vh var(--almost-black);
