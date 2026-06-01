@@ -2,12 +2,12 @@
 const bg = document.getElementById('background-circles');
 
 const circlesConfig = [
-  { size: 150, color: '#ff001a' },
-  { size: 150, color: '#d5ff00' },
-  { size: 150, color: '#4ef2ed' },
-  { size: 150, color: '#ff001a' },
-  { size: 150, color: '#d5ff00' },
-  { size: 150, color: '#4ef2ed' }
+  { size: 150, color: 'var(--red-AF)' },
+  { size: 150, color: 'var(--sage-AF)' },
+  { size: 150, color: 'var(--bright-AF)' },
+  { size: 150, color: 'var(--red-AF)' },
+  { size: 150, color: 'var(--sage-AF)' },
+  { size: 150, color: 'var(--bright-AF)' },
 ];
 
 const circles = [];
