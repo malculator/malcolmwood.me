@@ -1,0 +1,21 @@
+name: Generate XML Sitemap
+on:
+  push:
+    branches: [ main ] # Triggers on push
+
+jobs:
+  sitemap_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Generate Sitemap
+        uses: cicirello/generate-sitemap@v1
+        with:
+          base-url-path: https://malcolmwood.me
+      - name: PR Sitemap
+        uses: peter-evans/create-pull-request@v5
+        with:
+          title: "Automated sitemap update"
