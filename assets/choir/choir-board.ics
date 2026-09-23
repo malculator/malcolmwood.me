@@ -1,8 +1,11 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Malcolm Shay Wood//Choir Board Calendar//EN
+PRODID:-//Malcolm Shay Wood//Choir Board Schedule//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+X-WR-CALNAME:Choir Board Schedule
+X-WR-CALDESC:Meetings and other responsibilities for Choir Board members.
+X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
 SUMMARY:Choir Board Meeting
 DTSTART;TZID=America/New_York:20260914T094200
