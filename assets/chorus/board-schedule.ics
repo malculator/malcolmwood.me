@@ -1,23 +1,23 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Malcolm Shay Wood//Choir Board Schedule//EN
+PRODID:-//Malcolm Shay Wood//Chorus Board Schedule//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Choir Board Schedule
-X-WR-CALDESC:Meetings and other responsibilities for Choir Board members.
+X-WR-CALNAME:Chorus Board Schedule
+X-WR-CALDESC:Meetings and other responsibilities for Chorus Board members.
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Choir Board Meeting
+SUMMARY:Chorus Board Meeting
 DTSTART:20260914T134200Z
 DTEND:20260914T151400Z
-UID:choir-board-meeting-20260914@malcolmwood.me
+UID:chorus-board-meeting-20260914@malcolmwood.me
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Choir Board Meeting
 DTSTART:20261001T134200Z
 DTEND:20261001T151400Z
-UID:choir-board-meeting-20261001@malcolmwood.me
+UID:chorus-board-meeting-20261001@malcolmwood.me
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR
