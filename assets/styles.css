@@ -377,7 +377,7 @@ textarea::placeholder {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 100vh;
+  height: calc(100vh + 20px);
   background-color: var(--medium-dark-45);
   backdrop-filter: blur(100px);
   pointer-events: none; /* enable interaction with background circles */

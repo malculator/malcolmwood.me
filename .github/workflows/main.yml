@@ -3,6 +3,10 @@ on:
   push:
     branches: [ main ] # Triggers on push
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   sitemap_job:
     runs-on: ubuntu-latest
@@ -19,3 +23,5 @@ jobs:
         uses: peter-evans/create-pull-request@v5
         with:
           title: "Automated sitemap update"
+          branch: "sitemap-update"
+          commit-message: "chore: update sitemap"
